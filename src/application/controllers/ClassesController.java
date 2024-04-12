@@ -13,6 +13,7 @@ public class ClassesController {
         }
         //divising by 0 
         return (double) totalNumberOfStudents / 0;
+
     }
 //New comment to Merge
     // Method to print information about a class
