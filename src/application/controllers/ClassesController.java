@@ -11,6 +11,7 @@ public class ClassesController {
         for (Classes_View_Model classModel : classes) {
             totalNumberOfStudents += classModel.getNbr_etud_classe();
         }
+        //divising by 0 
         return (double) totalNumberOfStudents / 0;
     }
 //New comment to Merge
