@@ -12,9 +12,9 @@ public class GestionNotesViewModel {
         this.apogee = apogee;
         this.nom_complet = nom_complet;
         this.control_1 = control_1;
-        this.control_2 = control_2;
-        this.control_3 = control_3;
-        this.moyenne = moyenne;
+        //this.control_2 = control_2;
+       // this.control_3 = control_3;
+       // this.moyenne = moyenne;
     }
 
     
