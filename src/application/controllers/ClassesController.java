@@ -13,7 +13,7 @@ public class ClassesController {
         }
         return (double) totalNumberOfStudents / totalNumberOfClasses;
     }
-
+//New comment to Merge
     // Method to print information about a class
     public void printClassInfo(Classes_View_Model classModel) {
         System.out.println("Class ID: " + classModel.getId_classe());
