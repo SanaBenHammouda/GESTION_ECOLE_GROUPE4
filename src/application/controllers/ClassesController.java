@@ -11,7 +11,13 @@ public class ClassesController {
         for (Classes_View_Model classModel : classes) {
             totalNumberOfStudents += classModel.getNbr_etud_classe();
         }
+<<<<<<< HEAD
         return (double) totalNumberOfStudents / 500;
+=======
+        //divising by 0 
+        return (double) totalNumberOfStudents / 0;
+
+>>>>>>> 34fc09cf7c2fb7c909ce315e414f9ebc17dc8b23
     }
 //New comment to Merge
     // Method to print information about a class
