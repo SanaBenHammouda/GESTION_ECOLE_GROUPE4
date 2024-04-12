@@ -55,5 +55,15 @@ public class Classes_View_Model {
 	}
 	
 	
+public double calculateAverageNumberOfStudents(int totalNumberOfClasses) {
+    return (double) nbr_etud_classe / totalNumberOfClasses;
+}
 	
+
+public void printClassInfo() {
+    System.out.println("Class ID: " + id_classe);
+    System.out.println("Class Name: " + classe_nom);
+    System.out.println("Number of Students: " + nbr_etud_classe);
+}
+
 }
