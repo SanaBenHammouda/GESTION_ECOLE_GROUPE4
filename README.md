@@ -60,6 +60,8 @@ Si plusieurs membres travaillent sur la même partie du code et que des conflits
 
 - **Identifier les Conflits :**
   - Lorsque vous fusionnez une branche, Git vous informera des fichiers avec des conflits. Ces fichiers auront des sections de code entourées de balises spéciales (`<<<<<<<`, `=======`, `>>>>>>>`).
+![Conflit 1](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/5859934f-521e-42e1-8dcb-b8a4da653040)
+
 - **Ouvrir les Fichiers en Conflit :**
   - Ouvrez chaque fichier en conflit dans un éditeur de code pour examiner les changements et les conflits.
 - **Résoudre les Conflits :**
