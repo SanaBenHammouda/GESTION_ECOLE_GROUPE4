@@ -60,18 +60,5 @@ public double calculateAverageNumberOfStudents(int totalNumberOfClasses) {
 }
 	
 
-public void printClassInfo() {
-    System.out.println("Class ID: " + id_classe);
-    System.out.println("Class Name: " + classe_nom);
-    System.out.println("Number of Students: " + nbr_etud_classe);
-}
-
-
-public void printNumberOfStudents() {
-
-    System.out.println("Number of Students: " + nbr_etud_classe);
-}
-
-
 
 }
