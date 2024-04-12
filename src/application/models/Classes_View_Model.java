@@ -66,4 +66,12 @@ public void printClassInfo() {
     System.out.println("Number of Students: " + nbr_etud_classe);
 }
 
+
+public void printNumberOfStudents() {
+
+    System.out.println("Number of Students: " + nbr_etud_classe);
+}
+
+
+
 }
