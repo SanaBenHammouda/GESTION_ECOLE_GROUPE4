@@ -25,5 +25,6 @@ public class ClassesController {
     public void printNumberOfStudents(Classes_View_Model classModel) {
         System.out.println("Number of Students: " + classModel.getNbr_etud_classe());
     }
+    //end
 
 }
