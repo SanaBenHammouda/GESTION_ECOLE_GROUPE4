@@ -172,21 +172,41 @@ public class LoginController implements Initializable {
 
 	@FXML
 	public void Inscrire_Click() throws Exception {
-		URL url = new File("src/application/views/inscrire.fxml").toURI().toURL();
-		Parent root = FXMLLoader.load(url);
+		URL url = loadFXMLFile("inscrire.fxml");
+		Parent root = loadFXML(url);
+		Stage stage = createStage(root);
+		makeStageMovable(root, stage);
+		stage.show();
+	}
+	
+	private URL loadFXMLFile(String fxmlFileName) throws IOException {
+		return new File("src/application/views/" + fxmlFileName).toURI().toURL();
+	}
+	
+	private Parent loadFXML(URL url) throws IOException {
+		return FXMLLoader.load(url);
+	}
+	
+	private Stage createStage(Parent root) {
 		Stage stage = new Stage();
 		stage.setScene(new Scene(root));
 		stage.initStyle(StageStyle.UNDECORATED);
+		return stage;
+	}
+	
+	private void makeStageMovable(Parent root, Stage stage) {
+		double[] x = new double[1];
+		double[] y = new double[1];
 		root.setOnMousePressed(event -> {
-			x = event.getSceneX();
-			y = event.getSceneY();
+			x[0] = event.getSceneX();
+			y[0] = event.getSceneY();
 		});
 		root.setOnMouseDragged(event -> {
-			stage.setX(event.getScreenX() - x);
-			stage.setY(event.getScreenY() - y);
+			stage.setX(event.getScreenX() - x[0]);
+			stage.setY(event.getScreenY() - y[0]);
 		});
-		stage.show();
 	}
+	//Ameliioration de cette methode 
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {

@@ -60,10 +60,17 @@ Si plusieurs membres travaillent sur la même partie du code et que des conflits
 
 - **Identifier les Conflits :**
   - Lorsque vous fusionnez une branche, Git vous informera des fichiers avec des conflits. Ces fichiers auront des sections de code entourées de balises spéciales (`<<<<<<<`, `=======`, `>>>>>>>`).
+![Conflit 1](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/5859934f-521e-42e1-8dcb-b8a4da653040)
+
 - **Ouvrir les Fichiers en Conflit :**
   - Ouvrez chaque fichier en conflit dans un éditeur de code pour examiner les changements et les conflits.
+![conflit2](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/36c4241f-59e0-40ef-bd71-66c99b996385)
+
 - **Résoudre les Conflits :**
   - Modifiez manuellement le code en conflit pour intégrer les modifications des différentes branches. Supprimez les balises de conflit et conservez les modifications nécessaires.
+    ![conflit3](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/01b01337-587d-4014-927f-94c008795864)
+    ![solved](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/22840a4a-2261-4bd2-b74c-d949f1e08233)
+
 - **Ajouter et Commiter les Changements :**
   - Une fois les conflits résolus, ajoutez les fichiers modifiés et committez les changements.
   ```bash
