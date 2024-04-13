@@ -89,10 +89,8 @@ Si plusieurs membres travaillent sur la même partie du code et que des conflits
   # Commandes Git Avancées:
 -Dans ce projet, nous utilisons plusieurs commandes Git avancées pour gérer notre workflow de développement de manière efficace. Voici un aperçu de quelques-unes de ces commandes :
 
-- **git rebase:**
--  Utilisé pour intégrer les changements d'une branche sur une autre en réappliquant les commits dans l'ordre, permettant une historique linéaire et propre.
 
-- **git reflog:** Affiche un historique détaillé des mouvements de pointeurs Git dans le dépôt, utile pour récupérer des commits perdus ou pour comprendre les changements récents.
+- **git reflog/ git log :** Affiche un historique détaillé des mouvements de pointeurs Git dans le dépôt, utile pour récupérer des commits perdus ou pour comprendre les changements récents.
 
 - **git revert:** Annule les modifications apportées par un ou plusieurs commits en créant un nouveau commit d'annulation, préservant ainsi l'historique.
 
