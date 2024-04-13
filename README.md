@@ -86,8 +86,8 @@ Si plusieurs membres travaillent sur la même partie du code et que des conflits
   ```
 
 
-  Commandes Git Avancées
-Dans ce projet, nous utilisons plusieurs commandes Git avancées pour gérer notre workflow de développement de manière efficace. Voici un aperçu de quelques-unes de ces commandes :
+  # Commandes Git Avancées:
+-Dans ce projet, nous utilisons plusieurs commandes Git avancées pour gérer notre workflow de développement de manière efficace. Voici un aperçu de quelques-unes de ces commandes :
 
 - **git rebase:**
 -  Utilisé pour intégrer les changements d'une branche sur une autre en réappliquant les commits dans l'ordre, permettant une historique linéaire et propre.
