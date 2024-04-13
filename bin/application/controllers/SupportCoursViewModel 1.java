@@ -20,6 +20,10 @@ public class SupportCoursViewModel {
 	public void setNom_cours(String nom_cours) {
 		this.nom_cours = nom_cours;
 	}
+<<<<<<< Updated upstream
+=======
+	//Comment
+>>>>>>> Stashed changes
 	
 	
 	
