@@ -93,6 +93,12 @@ Si plusieurs membres travaillent sur la même partie du code et que des conflits
 - **git reflog/ git log :** Affiche un historique détaillé des mouvements de pointeurs Git dans le dépôt, utile pour récupérer des commits perdus ou pour comprendre les changements récents.
 
 - **git revert:** Annule les modifications apportées par un ou plusieurs commits en créant un nouveau commit d'annulation, préservant ainsi l'historique.
+- **git rebase :** 
+![image](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/5293e01d-41c8-4906-a73d-889bc83fa610)
+
+
+![image](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/c879e24c-68e1-4267-a994-4777b303cc16)
+
 
 ![image](https://github.com/SanaBenHammouda/GESTION_ECOLE_GROUPE4/assets/133594690/f9caba43-a091-424f-9a4e-bb4b64cef2bb)
 git revert 4b02f8b
